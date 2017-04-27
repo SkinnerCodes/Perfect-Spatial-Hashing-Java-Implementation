@@ -1,5 +1,5 @@
 # Perfect-Spatial-Hashing-Java-Implementation
- This project is for creating perfect spatial hashmaps for a set of 3D indices.
+ This project is for creating perfect spatial hashmaps for a 3D data set.
  This implementation is based off the paper: http://hhoppe.com/perfecthash.pdf, Perfect Spatial Hashing by Sylvain Lefebvre &Hugues Hopp, Microsoft Research
  * This tool takes as input a list of 3d index (3D integer vector), and creates a mapping that can be used to pair a 3d index with a value.
  * The best part about this type of hash map is that it can compress 3d spatial data in such a way that there spatial coherency (3d indices near each other have paired values near each other in the hash table) and the lookup time is O(1).
