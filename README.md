@@ -5,7 +5,7 @@
  * Since it's perfect hashing there is no hash collisions
  * This hashmap could be used for a very efficient hash table on the GPU due to coherency and only 2 lookups from a texture-hash-table would be needed, one for the offset to help create the hash, and one for the actual value indexed by the final hash.
  * This implementation is based off the paper: http://hhoppe.com/perfecthash.pdf, Perfect Spatial Hashing by Sylvain Lefebvre &Hugues Hopp, Microsoft Research
- *
+ 
  *  To use:
  *  accumulate your spatial data in a list to pass to the PSHOffsetTable class
  *  construct the table with the list
@@ -13,6 +13,6 @@
  *  create your 3D hash with the chosen width from PSHOffsetTable.hashTableWidth.
  *  Then to get the index into your hash table, just use PSHOffsetTable.hash(key).
  *  That's it.
- *
+ 
  *  If you want to update the offsetable, you can do so by using the updateOffsets() with the modified list of spatial data.
- *
+ 
