@@ -1,7 +1,7 @@
-package Thomas;
+package Psh;
 
 /**
- * Created by Thomas on 8/15/14.
+ * Created by Skinner on 8/15/14.
  */
 public class MathGeneral {
     public static int gcd(int a, int b)

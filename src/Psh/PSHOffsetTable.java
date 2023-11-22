@@ -1,14 +1,14 @@
-package Thomas;
+package Psh;
 
-import Thomas.Vec3I;
-import Thomas.MathGeneral;
+import Psh.Vec3I;
+import Psh.MathGeneral;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
 /**
- * Created by Thomas on 8/9/14.
+ * Created by Skinner on 8/9/14.
  * This class is used to create perfect spatial hashing for a set of 3D indices.
  * This class takes as input a list of 3d index (3D integer vector), and creates a mapping that can be used to pair a 3d index with a value.
  * The best part about this type of hash map is that it can compress 3d spatial data in such a way that there spatial coherency (3d indices near each other have paired values near each other in the hash table) and the lookup time is O(1).

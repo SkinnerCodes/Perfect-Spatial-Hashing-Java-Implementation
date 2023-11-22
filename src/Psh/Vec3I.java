@@ -1,4 +1,4 @@
-package Thomas;
+package Psh;
 
 public class Vec3I {
 
